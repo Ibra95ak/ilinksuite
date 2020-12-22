@@ -1,0 +1,18 @@
+body{
+  background-color: #101010 !important;
+}
+.menu__item a{
+  text-decoration: none;
+}
+.section-one{
+  background: -webkit-linear-gradient(#f81f01, #ee076e );
+    background-clip: border-box;
+background-clip: border-box;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 100px;
+line-height: 112px;
+text-transform: uppercase;
+font-family: 'Montserrat', sans-serif;
+font-weight: 900;
+}
