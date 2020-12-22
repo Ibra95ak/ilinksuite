@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="assets/css/master.css">
     <link rel="stylesheet" href="assets/css/component.css">
     <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
@@ -34,7 +35,46 @@
         </div>
       </div>
     </section>
+    <section class="section section--menu section-two">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="about-slider">
+            <div><img src="assets/images/sliders/slider1.jpg"alt=""></div>
+            <div><img src="assets/images/sliders/slider2.jpg"alt=""></div>
+            <div><img src="assets/images/sliders/slider3.jpg"alt=""></div>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <h1 class="ils-font-lg ils-font-bolder ils-font-white">ABOUT</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <div class="row">
+            <div class="col-md-6">
+              <h2 class="ils-font-md ils-font-bolder ils-font-white">Who we are</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="col-md-6">
+              <h2 class="ils-font-md ils-font-bolder ils-font-white">What We Do</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
+  <script src="https://unpkg.com/css-doodle@0.12.2/css-doodle.min.js"></script>
+  <css-doodle seed="2020">
+  :doodle {
+    @grid: 5 / 8em;
+  }
+  background: #60569e;
+  transform: scale(@rand(.2, .9));
+    :doodle { --s: 0 }
+    :doodle(:hover) { --s: 1 }
+
+    transition: .5s cubic-bezier(.175, .885, .32, 1.275);
+    transition-delay: @rand(500ms);
+    transform: translateY(calc(var(--s) * 100%));
+  </css-doodle>
   </body>
   <script src="assets/js/classie.js"></script>
 		<script src="assets/js/clipboard.min.js"></script>
@@ -75,6 +115,21 @@
 				});
 			})(window);
 		</script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript">
+    $('.about-slider').slick({
+      infinite: true,
+      arrows:false,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 3000,
+      fade: true,
+      cssEase: 'linear'
+    });
+    </script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.min.js'></script>
     <script type="text/javascript">
 //     colored = true

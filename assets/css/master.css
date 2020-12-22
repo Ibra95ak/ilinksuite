@@ -1,6 +1,9 @@
 body{
   background-color: #101010 !important;
 }
+p{
+  color: rgba(198, 201, 216, 0.75);;
+}
 .menu__item a{
   text-decoration: none;
 }
@@ -15,4 +18,16 @@ line-height: 112px;
 text-transform: uppercase;
 font-family: 'Montserrat', sans-serif;
 font-weight: 900;
+}
+.ils-font-lg{
+  font-size: 60px;
+}
+.ils-font-md{
+  font-size: 30px;
+}
+.ils-font-bolder{
+  font-weight: bolder;
+}
+.ils-font-white{
+  color: #ffffff;
 }
