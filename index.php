@@ -60,8 +60,103 @@
         </div>
       </div>
     </section>
+    <section>
+      <iframe width="100%" height="480" src="https://www.youtube.com/embed/emHAoQGoQic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    <section>
+      <div class="row">
+        <h1 class="ils-font-lg ils-font-bolder ils-font-white">Features</h1>
+        <div class="col-md-4 ils-font-white">
+          <ul>
+            <li>
+              <div class="feature">
+                <div class="icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-cast"><path d="M2 16.1A5 5 0 0 1 5.9 20M2 12.05A9 9 0 0 1 9.95 20M2 8V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6"></path><line x1="2" y1="20" x2="2.01" y2="20"></line></svg>
+                </div>
+                <div class="content">
+                  <h3 class="title">feature title</h3>
+                  <p>feature description</p>
+                  </div>
+                </div>
+              </li>
+            <li>
+              <div class="feature">
+                <div class="icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-cast"><path d="M2 16.1A5 5 0 0 1 5.9 20M2 12.05A9 9 0 0 1 9.95 20M2 8V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6"></path><line x1="2" y1="20" x2="2.01" y2="20"></line></svg>
+                </div>
+                <div class="content">
+                  <h3 class="title">feature title</h3>
+                  <p>feature description</p>
+                  </div>
+                </div>
+              </li>
+            <li>
+              <div class="feature">
+                <div class="icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-cast"><path d="M2 16.1A5 5 0 0 1 5.9 20M2 12.05A9 9 0 0 1 9.95 20M2 8V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6"></path><line x1="2" y1="20" x2="2.01" y2="20"></line></svg>
+                </div>
+                <div class="content">
+                  <h3 class="title">feature title</h3>
+                  <p>feature description</p>
+                  </div>
+                </div>
+              </li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <div class="main-container">
+            <div class="mobile-frame">
+              <div class="mobile-screen">
+                <div class="mobile-screen-top-block"></div>
+                <div class="mobile-screen-bottom-bar"></div>
+                <div id="start-screen">
+                  <lottie-player src="https://assets2.lottiefiles.com/temp/lf20_alVdNk.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;position: absolute;top: 150px;"  loop autoplay></lottie-player>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 ils-font-white">
+          <ul>
+            <li>
+              <div class="feature">
+                <div class="icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-cast"><path d="M2 16.1A5 5 0 0 1 5.9 20M2 12.05A9 9 0 0 1 9.95 20M2 8V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6"></path><line x1="2" y1="20" x2="2.01" y2="20"></line></svg>
+                </div>
+                <div class="content">
+                  <h3 class="title">feature title</h3>
+                  <p>feature description</p>
+                  </div>
+                </div>
+              </li>
+            <li>
+              <div class="feature">
+                <div class="icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-cast"><path d="M2 16.1A5 5 0 0 1 5.9 20M2 12.05A9 9 0 0 1 9.95 20M2 8V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6"></path><line x1="2" y1="20" x2="2.01" y2="20"></line></svg>
+                </div>
+                <div class="content">
+                  <h3 class="title">feature title</h3>
+                  <p>feature description</p>
+                  </div>
+                </div>
+              </li>
+            <li>
+              <div class="feature">
+                <div class="icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-cast"><path d="M2 16.1A5 5 0 0 1 5.9 20M2 12.05A9 9 0 0 1 9.95 20M2 8V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6"></path><line x1="2" y1="20" x2="2.01" y2="20"></line></svg>
+                </div>
+                <div class="content">
+                  <h3 class="title">feature title</h3>
+                  <p>feature description</p>
+                  </div>
+                </div>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </section>
   </div>
-  <script src="https://unpkg.com/css-doodle@0.12.2/css-doodle.min.js"></script>
+  <!-- <script src="https://unpkg.com/css-doodle@0.12.2/css-doodle.min.js"></script>
   <css-doodle seed="2020">
   :doodle {
     @grid: 5 / 8em;
@@ -74,47 +169,12 @@
     transition: .5s cubic-bezier(.175, .885, .32, 1.275);
     transition-delay: @rand(500ms);
     transform: translateY(calc(var(--s) * 100%));
-  </css-doodle>
+  </css-doodle> -->
   </body>
   <script src="assets/js/classie.js"></script>
 		<script src="assets/js/clipboard.min.js"></script>
 		<script src="assets/js/modernizr.custom.js"></script>
-    <script>
-			(function() {
-				[].slice.call(document.querySelectorAll('.menu')).forEach(function(menu) {
-					var menuItems = menu.querySelectorAll('.menu__link'),
-						setCurrent = function(ev) {
-							ev.preventDefault();
-
-							var item = ev.target.parentNode; // li
-
-							// return if already current
-							if( classie.has(item, 'menu__item--current') ) {
-								return false;
-							}
-							// remove current
-							classie.remove(menu.querySelector('.menu__item--current'), 'menu__item--current');
-							// set current
-							classie.add(item, 'menu__item--current');
-						};
-
-					[].slice.call(menuItems).forEach(function(el) {
-						el.addEventListener('click', setCurrent);
-					});
-				});
-
-				[].slice.call(document.querySelectorAll('.link-copy')).forEach(function(link) {
-					link.setAttribute('data-clipboard-text', location.protocol + '//' + location.host + location.pathname + '#' + link.parentNode.id);
-					new Clipboard(link);
-					link.addEventListener('click', function() {
-						classie.add(link, 'link-copy--animate');
-						setTimeout(function() {
-							classie.remove(link, 'link-copy--animate');
-						}, 300);
-					});
-				});
-			})(window);
-		</script>
+		<script src="assets/js/master.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
