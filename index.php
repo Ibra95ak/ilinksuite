@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="assets/css/master.css">
     <link rel="stylesheet" href="assets/css/component.css">
     <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/all.css">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
@@ -45,16 +46,16 @@
           </div>
         </div>
         <div class="col-md-8">
-          <h1 class="ils-font-lg ils-font-bolder ils-font-white">ABOUT</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <h1 class="ils-font-xl ils-font-bolder ils-font-white">ABOUT</h1>
+          <p class="ils-font-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           <div class="row">
             <div class="col-md-6">
-              <h2 class="ils-font-md ils-font-bolder ils-font-white">Who we are</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <h2 class="ils-font-lg ils-font-bolder ils-font-white">Who we are</h2>
+              <p class="ils-font-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
             <div class="col-md-6">
-              <h2 class="ils-font-md ils-font-bolder ils-font-white">What We Do</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <h2 class="ils-font-lg ils-font-bolder ils-font-white">What We Do</h2>
+              <p class="ils-font-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
           </div>
         </div>
@@ -64,43 +65,43 @@
       <iframe width="100%" height="480" src="https://www.youtube.com/embed/emHAoQGoQic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </section>
     <section>
+      <h1 class="ils-font-xl ils-font-bolder ils-font-white">Features</h1>
       <div class="row">
-        <h1 class="ils-font-lg ils-font-bolder ils-font-white">Features</h1>
         <div class="col-md-4 ils-font-white">
-          <ul>
+          <ul class="no-bullets">
             <li>
               <div class="feature">
                 <div class="icon">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-cast"><path d="M2 16.1A5 5 0 0 1 5.9 20M2 12.05A9 9 0 0 1 9.95 20M2 8V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6"></path><line x1="2" y1="20" x2="2.01" y2="20"></line></svg>
                 </div>
                 <div class="content">
-                  <h3 class="title">feature title</h3>
-                  <p>feature description</p>
+                  <h3 class="ils-font-md ils-font-bolder ils-font-white">feature title</h3>
+                  <p class="ils-font-sm">feature description</p>
                   </div>
                 </div>
               </li>
-            <li>
-              <div class="feature">
-                <div class="icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-cast"><path d="M2 16.1A5 5 0 0 1 5.9 20M2 12.05A9 9 0 0 1 9.95 20M2 8V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6"></path><line x1="2" y1="20" x2="2.01" y2="20"></line></svg>
-                </div>
-                <div class="content">
-                  <h3 class="title">feature title</h3>
-                  <p>feature description</p>
+              <li>
+                <div class="feature">
+                  <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-cast"><path d="M2 16.1A5 5 0 0 1 5.9 20M2 12.05A9 9 0 0 1 9.95 20M2 8V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6"></path><line x1="2" y1="20" x2="2.01" y2="20"></line></svg>
                   </div>
-                </div>
-              </li>
-            <li>
-              <div class="feature">
-                <div class="icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-cast"><path d="M2 16.1A5 5 0 0 1 5.9 20M2 12.05A9 9 0 0 1 9.95 20M2 8V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6"></path><line x1="2" y1="20" x2="2.01" y2="20"></line></svg>
-                </div>
-                <div class="content">
-                  <h3 class="title">feature title</h3>
-                  <p>feature description</p>
+                  <div class="content">
+                    <h3 class="ils-font-md ils-font-bolder ils-font-white">feature title</h3>
+                    <p class="ils-font-sm">feature description</p>
+                    </div>
                   </div>
-                </div>
-              </li>
+                </li>
+                <li>
+                  <div class="feature">
+                    <div class="icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-cast"><path d="M2 16.1A5 5 0 0 1 5.9 20M2 12.05A9 9 0 0 1 9.95 20M2 8V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6"></path><line x1="2" y1="20" x2="2.01" y2="20"></line></svg>
+                    </div>
+                    <div class="content">
+                      <h3 class="ils-font-md ils-font-bolder ils-font-white">feature title</h3>
+                      <p class="ils-font-sm">feature description</p>
+                      </div>
+                    </div>
+                  </li>
           </ul>
         </div>
         <div class="col-md-4">
@@ -117,66 +118,116 @@
           </div>
         </div>
         <div class="col-md-4 ils-font-white">
-          <ul>
+          <ul class="no-bullets">
             <li>
               <div class="feature">
                 <div class="icon">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-cast"><path d="M2 16.1A5 5 0 0 1 5.9 20M2 12.05A9 9 0 0 1 9.95 20M2 8V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6"></path><line x1="2" y1="20" x2="2.01" y2="20"></line></svg>
                 </div>
                 <div class="content">
-                  <h3 class="title">feature title</h3>
-                  <p>feature description</p>
+                  <h3 class="ils-font-md ils-font-bolder ils-font-white">feature title</h3>
+                  <p class="ils-font-sm">feature description</p>
                   </div>
                 </div>
               </li>
-            <li>
-              <div class="feature">
-                <div class="icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-cast"><path d="M2 16.1A5 5 0 0 1 5.9 20M2 12.05A9 9 0 0 1 9.95 20M2 8V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6"></path><line x1="2" y1="20" x2="2.01" y2="20"></line></svg>
-                </div>
-                <div class="content">
-                  <h3 class="title">feature title</h3>
-                  <p>feature description</p>
+              <li>
+                <div class="feature">
+                  <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-cast"><path d="M2 16.1A5 5 0 0 1 5.9 20M2 12.05A9 9 0 0 1 9.95 20M2 8V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6"></path><line x1="2" y1="20" x2="2.01" y2="20"></line></svg>
                   </div>
-                </div>
-              </li>
-            <li>
-              <div class="feature">
-                <div class="icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-cast"><path d="M2 16.1A5 5 0 0 1 5.9 20M2 12.05A9 9 0 0 1 9.95 20M2 8V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6"></path><line x1="2" y1="20" x2="2.01" y2="20"></line></svg>
-                </div>
-                <div class="content">
-                  <h3 class="title">feature title</h3>
-                  <p>feature description</p>
+                  <div class="content">
+                    <h3 class="ils-font-md ils-font-bolder ils-font-white">feature title</h3>
+                    <p class="ils-font-sm">feature description</p>
+                    </div>
                   </div>
-                </div>
-              </li>
+                </li>
+                <li>
+                  <div class="feature">
+                    <div class="icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-cast"><path d="M2 16.1A5 5 0 0 1 5.9 20M2 12.05A9 9 0 0 1 9.95 20M2 8V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6"></path><line x1="2" y1="20" x2="2.01" y2="20"></line></svg>
+                    </div>
+                    <div class="content">
+                      <h3 class="ils-font-md ils-font-bolder ils-font-white">feature title</h3>
+                      <p class="ils-font-sm">feature description</p>
+                      </div>
+                    </div>
+                  </li>
           </ul>
         </div>
       </div>
     </section>
-  </div>
-  <!-- <script src="https://unpkg.com/css-doodle@0.12.2/css-doodle.min.js"></script>
-  <css-doodle seed="2020">
-  :doodle {
-    @grid: 5 / 8em;
-  }
-  background: #60569e;
-  transform: scale(@rand(.2, .9));
-    :doodle { --s: 0 }
-    :doodle(:hover) { --s: 1 }
+    <section>
+    <h1 class="ils-font-xl ils-font-bolder ils-font-white">OUR FUN FACTS</h1>
+      <div class="row">
+        <div class="col-md-4">
+          <div id="number1" class="counter ils-font-bolder" onload="counttil();">0</div>
+          <p class="ils-font-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="col-md-4">
+          <div id="number2" class="counter ils-font-bolder">0</div>
+          <p class="ils-font-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="col-md-4">
+          <div id="number3" class="counter ils-font-bolder">0</div>
+          <p class="ils-font-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
 
-    transition: .5s cubic-bezier(.175, .885, .32, 1.275);
-    transition-delay: @rand(500ms);
-    transform: translateY(calc(var(--s) * 100%));
-  </css-doodle> -->
+      </div>
+    </section>
+
+  </div>
+  <section class="section section--menu section-five">
+    <div class="calltoaction">
+      <div class="ils-font-sm ils-font-white ils-text-center ils-pt-100">
+        Ready to do this
+      </div>
+      <div class="ils-font-xl ils-font-bolder ils-font-white ils-text-center ils-pt-50">
+        Let's get to work
+      </div>
+      <div class="ils-pt-50 ils-pb-50 ils-text-center">
+        <a href="javascript:void(0)" class="ils-btn ils-font-white">Register NOW</a>
+      </div>
+    </div>
+  </section>
+  <div class="container">
+    <footer>
+      <div class="row ils-font-white ils-pt-30 ils-pb-30">
+        <div class="col-md-4">
+          <script src="https://unpkg.com/css-doodle@0.12.2/css-doodle.min.js"></script>
+          <css-doodle seed="2020">
+          :doodle {
+            @grid: 5 / 8em;
+          }
+          background: #60569e;
+          transform: scale(@rand(.2, .9));
+            :doodle { --s: 0 }
+            :doodle(:hover) { --s: 1 }
+
+            transition: .5s cubic-bezier(.175, .885, .32, 1.275);
+            transition-delay: @rand(500ms);
+            transform: translateY(calc(var(--s) * 100%));
+          </css-doodle>
+        </div>
+        <div class="col-md-4">
+          <ul id="social-media" class="ils-center">
+            <li><a href="javascript:void(0)" class="social-media-btn"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="javascript:void(0)" class="social-media-btn"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="javascript:void(0)" class="social-media-btn"><i class="fab fa-linkedin-in"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <span class="ils-center">Copyright © 2020. All Rights Reserved.</span>
+        </div>
+      </div>
+    </footer>
+  </div>
   </body>
   <script src="assets/js/classie.js"></script>
 		<script src="assets/js/clipboard.min.js"></script>
 		<script src="assets/js/modernizr.custom.js"></script>
-		<script src="assets/js/master.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="assets/js/master.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script type="text/javascript">
     $('.about-slider').slick({

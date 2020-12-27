@@ -33,3 +33,34 @@
     });
   });
 })(window);
+/* counter */
+function counttil(ele,numb){
+  let number = ele;
+  let start = 20;
+  let end = numb;
+  let ticks = 20;
+  let speed = 50;
+  let randomNumbers = [end]
+
+  for (let i = 0; i < ticks - 1; i++) {
+    randomNumbers.unshift(
+      Math.floor(Math.random() * (end - start + 1) + start)
+    );
+  }
+  randomNumbers.sort((a, b) => {return a - b});
+  let x = 0;
+  let interval = setInterval(function () {
+
+     number.innerHTML = randomNumbers.shift();
+
+     if (++x === ticks) {
+        window.clearInterval(interval);
+     }
+
+  }, speed);
+}
+$(document).ready(function(){
+  counttil(document.getElementById('number1'),150);
+  counttil(document.getElementById('number2'),300);
+  counttil(document.getElementById('number3'),60);
+});

@@ -1,8 +1,9 @@
 body{
   background-color: #101010 !important;
+  font-family: 'Montserrat', sans-serif;
 }
 p{
-  color: rgba(198, 201, 216, 0.75);;
+  color: rgba(198, 201, 216, 0.75);
 }
 .menu__item a{
   text-decoration: none;
@@ -19,11 +20,27 @@ text-transform: uppercase;
 font-family: 'Montserrat', sans-serif;
 font-weight: 900;
 }
-.ils-font-lg{
+.section-five{
+  background: -webkit-linear-gradient(305deg, #f81f01 0%, #ee076e 100%);
+  background: -o-linear-gradient(305deg, #f81f01 0%, #ee076e 100%);
+  background: linear-gradient(145deg, #f81f01 0%, #ee076e 100%);
+  position: relative;
+  z-index: 2;
+}
+.calltoaction{
+  background-image: url("../images/pattern-1.png");
+}
+.ils-font-xl{
   font-size: 60px;
 }
-.ils-font-md{
+.ils-font-lg{
   font-size: 30px;
+}
+.ils-font-md{
+  font-size: 20px;
+}
+.ils-font-sm{
+  font-size: 18px;
 }
 .ils-font-bolder{
   font-weight: bolder;
@@ -31,7 +48,91 @@ font-weight: 900;
 .ils-font-white{
   color: #ffffff;
 }
-
+.ils-text-center{
+  text-align: center;
+}
+.ils-center{
+  margin: 0;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.ils-pt-30{
+  padding-top: 30px;
+}
+.ils-pb-30{
+  padding-bottom: 30px;
+}
+.ils-pt-50{
+  padding-top: 50px;
+}
+.ils-pb-50{
+  padding-bottom: 50px;
+}
+.ils-pt-100{
+  padding-top: 100px;
+}
+.ils-btn{
+  text-decoration: none;
+  border: 2px solid;
+  padding: 15px 40px;
+  font-size: 16px;
+}
+.no-bullets{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul#social-media li{
+  display:inline;
+}
+.social-media-btn{
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  border: 2px solid;
+  padding: 15px;
+  font-size: 35px;
+  text-align: center;
+  color: #fff;
+  border-radius: 50%;
+}
+.feature{
+  padding: 20px 20px;
+  border-radius: 10px;
+}
+.feature:hover{
+  background: linear-gradient(90deg, #f61b10, #ef0963);
+  padding: 20px 20px;
+  border-radius: 10px;
+}
+.feature:hover p{
+  color: #ffffff;
+}
+.feature:hover .icon{
+  color: #ffffff;
+}
+.icon{
+  color: #f9004d;
+  font-size: 54px;
+  font-weight: 400;
+  margin-bottom: 23px;
+  display: inline-flex;
+}
+.icon svg{
+  width: 54px;
+  height: 54px;
+}
+.counter{
+  font-size: 72px;
+  line-height: 80px;
+  margin-bottom: 17px;
+  position: relative;
+  display: inline-block;
+  color: #f9004d;
+}
 .mobile-frame {
   position: absolute;
   width: 300px;
@@ -68,59 +169,6 @@ font-weight: 900;
   left: calc(50% - 50px);
   border-radius: 15px;
 }
-h2 {
-  color: white;
-  font-size: 24px;
-  text-align: center;
-  margin-top: 180px;
-}
-.sign-in,
-.sign-up {
-  position: absolute;
-  background: white;
-  height: 30px;
-  line-height: 30px;
-  width: 100px;
-  left: calc(50% - 50px);
-  border-radius: 15px;
-  font-size: 15px;
-  text-align: center;
-}
-.sign-in {
-  bottom: 240px;
-}
-.sign-up {
-  bottom: 200px;
-}
-.default-screen-button,
-.habits-screen-button {
-  position: absolute;
-  background-color: #21D4FD;
-  background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
-  color: white;
-  height: 30px;
-  line-height: 30px;
-  width: 150px;
-  top: 100px;
-  left: calc(50% - 160px);
-  border-radius: 15px;
-  font-size: 15px;
-  text-align: center;
-}
-.default-screen-button {
-  left: calc(50% - 160px);
-}
-.habits-screen-button {
-  left: calc(50% + 10px);
-}
-.sign-in,
-.sign-up,
-.default-screen-button:hover,
-.habits-screen-button:hover {
-  cursor: pointer;
-}
-.mobile-frame,
-.default-screen-button,
-.habits-screen-button {
+.mobile-frame{
   box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.1);
 }
